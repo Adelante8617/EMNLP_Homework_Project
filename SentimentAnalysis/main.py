@@ -36,7 +36,7 @@ def main(args):
     print(loss_dic)
 
     train_data = loadDataAndPreprocess(args.train_file)
-    test_data = loadDataAndPreprocess(args.test_file, isTest=True)
+    test_data = loadDataAndPreprocess(args.test_file, needPreprocess=args.need_location_label)
 
     if args.dialect_only:
         test_data = test_data[test_data['location'].isin(["Morocco", "Algeria"])]
@@ -114,6 +114,7 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=8, help='Batch size for training')
     parser.add_argument('--learning_rate', type=float, default=1e-5, help='Learning rate for optimizer')
     parser.add_argument('--dialect_only', action='store_true', help='Filter test data for specific dialects')
+    parser.add_argument('--need_location_label', action='store_true', help='For origin data from SemEval2018, it need preprocess.')
     parser.add_argument('--model_name', type=str, required=True, default="bert-base-multilingual-cased",
                         choices=["aubmindlab/bert-base-arabertv02", "bert-base-uncased",
                                  "bert-base-multilingual-cased", "asafaya/bert-base-arabic"],

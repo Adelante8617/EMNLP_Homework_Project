@@ -20,7 +20,7 @@ country = {'EG': 'Egypt', 'SA': 'Saudi Arabia', 'MA': 'Morocco', 'DZ': 'Algeria'
            'PL': 'Palestine', 'OM': 'Oman', 'LY': 'Libya', 'TN': 'Tunisia'}
 
 
-def loadDataAndPreprocess(file_path, isTest=False):
+def loadDataAndPreprocess(file_path, needPreprocess=False):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines_train = file.readlines()
 
@@ -33,7 +33,7 @@ def loadDataAndPreprocess(file_path, isTest=False):
     # 重置索引
     df.reset_index(drop=True, inplace=True)
 
-    if False:
+    if needPreprocess:
         Location = []
 
         for idx in tqdm(range(df.shape[0])):
