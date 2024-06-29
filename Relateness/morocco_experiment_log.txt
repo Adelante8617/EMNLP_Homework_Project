@@ -1,0 +1,75 @@
+Pretrained model: bert-base-uncased
+Pretrained model: bert-base-uncased
+Epoch 1, Loss: 0.9817883135943577
+Epoch 2, Loss: 0.9963202661481397
+Epoch 3, Loss: 1.0000560448087494
+Epoch 4, Loss: 1.0228539253103321
+Epoch 5, Loss: 1.0895270664116432
+Final score: -0.09993380572376791
+Saved test results to morocco_bertbase.csv
+========================================================================
+
+Pretrained model: asafaya/bert-base-arabic
+Epoch 1, Loss: 0.9787926283375971
+Epoch 2, Loss: 0.8902112574412905
+Epoch 3, Loss: 0.6944628573697189
+Epoch 4, Loss: 0.5350628433556393
+Epoch 5, Loss: 0.4488702971359779
+Final score: -0.027094313042687973
+Saved test results to morocco_arabic.csv
+========================================================================
+
+Pretrained model: asafaya/bert-base-arabic
+Epoch 1, Loss: 0.985610640254514
+Epoch 2, Loss: 0.8137273171852375
+Epoch 3, Loss: 0.7768561274840914
+Epoch 4, Loss: 0.6190462842069823
+Epoch 5, Loss: 0.5305757728116266
+Final score: -0.04726599270545031
+Saved test results to morocco_arabic.csv
+========================================================================
+Pretrained model: bert-base-multilingual-cased
+Epoch 1, Loss: 0.9376359489457361
+Epoch 2, Loss: 0.7181236353413812
+Epoch 3, Loss: 0.6830285355962556
+Epoch 4, Loss: 0.5767689347267151
+Epoch 5, Loss: 0.47087400021224185
+Final score: 0.07998178618130691
+Saved test results to morocco_mbert.csv
+========================================================================
+Pretrained model: aubmindlab/bert-base-arabertv02
+Epoch 1, Loss: 0.9978953579376484
+Epoch 2, Loss: 0.8900838021574349
+Epoch 3, Loss: 0.7993597891823999
+Epoch 4, Loss: 0.8104216651669864
+Epoch 5, Loss: 0.6818878938411844
+Final score: -0.0048512554343529656
+Saved test results to morocco_arabert.csv
+========================================================================
+Pretrained model: aubmindlab/bert-base-arabertv02
+Epoch 1, Loss: 0.9750627998648018
+Epoch 2, Loss: 0.8713767518257273
+Epoch 3, Loss: 0.7814782662638302
+Epoch 4, Loss: 0.7313855444562847
+Epoch 5, Loss: 0.632140381582852
+Final score: 0.03745590047698613
+Saved test results to morocco_arabert.csv
+========================================================================
+Pretrained model: bert-base-multilingual-cased
+Epoch 1, Loss: 0.886045064391761
+Epoch 2, Loss: 0.8361906645626858
+Epoch 3, Loss: 0.7271886046590477
+Epoch 4, Loss: 0.6980661215453312
+Epoch 5, Loss: 0.585715402816904
+Final score: 0.05872211130260063
+Saved test results to morocco_mbert.csv
+========================================================================
+Pretrained model: bert-base-multilingual-cased
+Epoch 1, Loss: 1.0000861215180363
+Epoch 2, Loss: 0.9537001858497488
+Epoch 3, Loss: 0.8306469670657454
+Epoch 4, Loss: 0.800454286665752
+Epoch 5, Loss: 0.6828531756483275
+Final score: 0.027105183862466128
+Saved test results to morocco_mbert.csv
+========================================================================

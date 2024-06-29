@@ -1,0 +1,45 @@
+Pretrained model: bert-base-uncased
+Epoch 1, Loss: 1.0009098581120939
+Epoch 2, Loss: 0.9696976436844355
+Epoch 3, Loss: 1.0505156675471534
+Epoch 4, Loss: 0.9517199299003505
+Epoch 5, Loss: 0.9278629467457156
+Final score: -0.033261524628114665
+Saved test results to algeria_bertbase.csv
+========================================================================
+Pretrained model: asafaya/bert-base-arabic
+Epoch 1, Loss: 1.0189543796491018
+Epoch 2, Loss: 0.9759283360046677
+Epoch 3, Loss: 1.0060681866694101
+Epoch 4, Loss: 0.9290726622448692
+Epoch 5, Loss: 0.8556730603869958
+Final score: -0.09405165726152706
+Saved test results to algeria_arabic.csv
+========================================================================
+Pretrained model: asafaya/bert-base-arabic
+Epoch 1, Loss: 0.9688033046601694
+Epoch 2, Loss: 0.9828024634832069
+Epoch 3, Loss: 0.9528326256365716
+Epoch 4, Loss: 0.9690482314628891
+Epoch 5, Loss: 1.0035021131551718
+Final score: 0.02311015875730767
+Saved test results to algeria_arabic.csv
+========================================================================
+Pretrained model: bert-base-multilingual-cased
+Epoch 1, Loss: 0.9587218255936345
+Epoch 2, Loss: 0.9175286368478702
+Epoch 3, Loss: 0.860660775552822
+Epoch 4, Loss: 1.0277540381950667
+Epoch 5, Loss: 0.9820759107794943
+Final score: 0.01763488931404
+Saved test results to algeria_mbert.csv
+========================================================================
+Pretrained model: aubmindlab/bert-base-arabertv02
+Epoch 1, Loss: 0.9637229729302322
+Epoch 2, Loss: 0.9361393474325349
+Epoch 3, Loss: 0.8997828288923336
+Epoch 4, Loss: 0.8152923765061777
+Epoch 5, Loss: 0.8225635999365698
+Final score: 0.007880161799235333
+Saved test results to algeria_arabert.csv
+========================================================================

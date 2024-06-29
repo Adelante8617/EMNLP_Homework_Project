@@ -1,0 +1,32 @@
+Pretrained model: bert-base-multilingual-cased
+Epoch 1, Loss: 1.0241593273380134
+Epoch 2, Loss: 0.9441320669801929
+Epoch 3, Loss: 0.9514467738851716
+Epoch 4, Loss: 0.8990234408197524
+Epoch 5, Loss: 0.9053468032728268
+Final score: -0.04697282696461565
+========================================================================
+Pretrained model: asafaya/bert-base-arabic
+Epoch 1, Loss: 1.0204773409457146
+Epoch 2, Loss: 0.9851275131672244
+Epoch 3, Loss: 0.9057089709028413
+Epoch 4, Loss: 0.8556123828586144
+Epoch 5, Loss: 0.8360791108276271
+Final score: 0.028419159116457326
+========================================================================
+Pretrained model: aubmindlab/bert-base-arabertv02
+Epoch 1, Loss: 0.9850676980199693
+Epoch 2, Loss: 0.9787986595419389
+Epoch 3, Loss: 0.9174480128891861
+Epoch 4, Loss: 0.8515785562841198
+Epoch 5, Loss: 0.7691774753075612
+Final score: 0.009229660682786063
+========================================================================
+Pretrained model: bert-base-uncased
+Epoch 1, Loss: 1.0088349460046502
+Epoch 2, Loss: 0.9256969894034953
+Epoch 3, Loss: 0.941795856892308
+Epoch 4, Loss: 0.9178013439419903
+Epoch 5, Loss: 0.9006639273860787
+Final score: -0.040367906513028406
+========================================================================
