@@ -1,2 +1,13 @@
-# EMNLP_Homework_Project
-This is the repository for PKU 2024 EMNLP Course 's final project.
+# EMNLP 2024
+本项目为EMNLP课程大作业。
+
+---
+
+# 主题
+
+# 文件内容
+
+# 使用方式
+
+---
+
